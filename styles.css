@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    background-color: #1F2937;
 }
 
 .header {
@@ -34,15 +35,43 @@ ul {
     display: flex;
     padding-left: 300px;
     padding-right: 300px;
+    background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .cont1-nest1 {
     display: flex;
     justify-content: space-between;
-    flex: 1
+    flex: 1;
+    gap: 100px;
 }
 
+.cont1-nest1-left {
+    gap: 10px;
+}
 
 #g1 {
     max-width: 300px;
+}
+
+#hero-text {
+    font-size: 48px;
+    font-weight: 1500;
+    color: #f9faf8;
+}
+
+#hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#cont-1-signup {
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    color: #f9faf8;
+    border: none;
 }
