@@ -39,8 +39,10 @@ ul {
 .cont1-nest1 {
     display: flex;
     justify-content: space-between;
+    flex: 1
 }
 
+
 #g1 {
-    width: 300px;
+    max-width: 300px;
 }
