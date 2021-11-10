@@ -36,8 +36,8 @@ ul {
     padding-left: 300px;
     padding-right: 300px;
     background-color: #1F2937;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .cont1-nest1 {
@@ -52,7 +52,7 @@ ul {
 }
 
 #g1 {
-    max-width: 300px;
+    max-width: 500px;
 }
 
 #hero-text {
@@ -75,4 +75,60 @@ ul {
     color: #f9faf8;
     border: none;
     font-size: 18px;
+}
+
+.cont2 {
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.cont2-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cont2-nest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    padding-top: 50px;
+}
+
+#carrot,
+#water,
+#pellets,
+#hay {
+    max-width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 7px;
+
+}
+
+.cont3 {
+    background-color: #e5e7eb;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote-content {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+    padding-top: 20px;
 }
